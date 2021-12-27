@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "LearnCode",
+    "slug": "LearnCode",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./App/assets/icon.png",
+    "splash": {
+      "image": "./App/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./App/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.OnGameClips.LearnHtml"
+    },
+    "web": {
+      "favicon": "./App/assets/favicon.png"
+    }
+  }
+}
